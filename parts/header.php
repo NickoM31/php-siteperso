@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<?php
+include "menu.php";
+
+?><!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -6,4 +9,6 @@
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<?php echo $menu ?>
+
 	
