@@ -1,3 +1,3 @@
 <?php
 
-$menu = "<menu></menu>"
+$menu = "<menu><h1>yo</h1></menu>";
