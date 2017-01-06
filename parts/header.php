@@ -1,14 +1,17 @@
-<?php
-include "menu.php";
-
-?><!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Document</title>
+	<title>A Story Beats</title>
 	<link rel="stylesheet" href="style.css">
+	
 </head>
 <body>
-	<?php echo $menu ?>
+	<h1>A Story Beats</h1>
+
+	
+
+	
+	
 
 	
