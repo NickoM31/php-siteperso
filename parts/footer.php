@@ -1,4 +1,4 @@
-<!-- <h2>A Story Beats</h2>
+<h2>A Story Beats</h2>
 <div><i class="fa fa-copyright" aria-hidden="true"></i>2016-2017 A Story Beats</div>
 <div>
 	<i class="fa fa-facebook" aria-hidden="true"></i>
@@ -14,7 +14,7 @@
 		<li>Logos et images</li>
 		<li>Condition d'utilisations</li>
 	</ul>
-</div> -->
+</div>
 
 
 

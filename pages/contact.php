@@ -1,1 +1,5 @@
-<div>johnny.alité@gromail.com</div>
+<?php
+$user = getUserData();
+var_dump($user);
+
+

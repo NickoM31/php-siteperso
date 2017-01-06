@@ -19,4 +19,11 @@ function getPart($name){
 	include __DIR__ . '/../parts/'. $name . '.php';
 }
 
+function getUserData(){
+	$json = "../data/user.json";
+	$recupJson = file_get_contents($json);
+	$decodJson = json_decode($recupJson, true);
+	return $decodJson;
+
+}
 
