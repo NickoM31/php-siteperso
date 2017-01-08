@@ -15,6 +15,7 @@ require __DIR__ . '/../lib/functions.php';
 getPart('header');
 getPart('menu');
 getContent();
+// getUserData();
 // getPart('footer');
 
 

@@ -1,1 +1,3 @@
-<h1>Bienvenue sur notre site A Story Beats</h1>
+<div>
+	<span>Bienvenue sur notre site A Story Beats</span>
+</div>

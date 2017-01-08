@@ -24,6 +24,7 @@ function getUserData(){
 	$recupJson = file_get_contents($json);
 	$decodJson = json_decode($recupJson, true);
 	return $decodJson;
-
 }
+
+
 
