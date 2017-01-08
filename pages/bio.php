@@ -8,5 +8,7 @@ $user = getUserData(); ?>
 
 <?php
 foreach($user['experiences'] as $experience) : ?>
-<li><i><?= $experience['year'] ?></i> | <?= $experience['company'] ?></li>
+<li>
+	<i><?= $experience['year'] ?></i> | <?= $experience['company'] ?>
+</li>
 <?php endforeach; ?>

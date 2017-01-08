@@ -11,7 +11,15 @@ function getContent(){
 	if(!isset($_GET['page'])){
 		include __DIR__.'/../pages/home.php';
 	} else {
-		include "../pages/" . $_GET["page"].".php";
+		$p = $_GET['page'];
+		$pages = ['bio', 'contact', 'home','admin'];
+		$path = __DIR__ . '/../pages/' . $p . '.php';
+		if(in_array($p, $pages) && file_exists($path)) {
+			include $path;			
+		} else {
+			die('404');
+		}
+
 	}
 }
 
